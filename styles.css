@@ -32,8 +32,7 @@ body {
 .nav{
     position: fixed;
     top:0;
-    left:20%;
-    max-width: 100%;
+    width: 100%;
 
 }
  /*this removes the default style of navigation bar*/
