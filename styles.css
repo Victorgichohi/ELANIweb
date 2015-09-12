@@ -26,17 +26,24 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background: #ccc;
 }
+/*nav bar will move as you scroll*/
+.nav{
+    position: fixed;
+    top:0;
+}
  /*this removes the default style of navigation bar*/
+
+
 .nav ul {
   list-style: none;
   background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
+
+
 }
 /*giving the navigation bar a horizontal view*/
 .nav li {
